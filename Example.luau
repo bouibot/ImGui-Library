@@ -10,8 +10,8 @@ local single_opts = {{"1", false}, {"2", true}};
 local int, int_x, int_y, int_z = 1, 0, 0, 0
 local float_test = 5;
 
-local color_data = {color = color3_new(1, 0, 0)};
-local color_other = {color = color3_new(0, 1, 0), alpha = 1};
+local color_data = {color = Color3.new(1, 0, 0)};
+local color_other = {color = Color3.new(0, 1, 0), alpha = 1};
 library.add_group(rage, "Aimbot", function()
     a = library.toggle("Toggle##aimbot", a);
     library.multi_dropdown("Multi Dropdown##aimbot", opts);
